@@ -13,12 +13,12 @@
 - [Mynteye-SDK](https://github.com/slightech/MYNT-EYE-D-SDK)
 
 ### Build
-'''Bash
+```Bash
 git clone https://github.com/hyxhope/mynteye_darknet.git
 cd mynteye_darknet/
 cmake .
 make
 ./test
-'''
+```
 
 如果报错找不到-ldarknet，即是找不到动态链接库libdarknet.so，视情况重新编译darknet，或者修改CMakeList.txt
